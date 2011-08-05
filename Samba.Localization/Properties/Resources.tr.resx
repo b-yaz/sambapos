@@ -2287,4 +2287,7 @@ Masa: {2}</value>
 	<data name="ClickLinksToExportData">
 		<value xml:space="preserve">Veri aktarımı için bir tarih aralığı seçiniz, raporu güncelleyiniz ve ilgili linke tıklayınız.</value>
 	</data>
+	<data name="ClientServerConnectionHelpUrlString">
+		<value xml:space="preserve">http://www.sambapos.com/content/client-server-baglantisi-nasil-yapilir</value>
+	</data>
 </root>

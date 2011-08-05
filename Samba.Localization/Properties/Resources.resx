@@ -2285,4 +2285,7 @@ Table: {2}</value>
 	<data name="ClickLinksToExportData">
 		<value xml:space="preserve">Select date range, refresh report and click related link to export data.</value>
 	</data>
+	<data name="ClientServerConnectionHelpUrlString">
+		<value xml:space="preserve">http://www.sambapos.com/en/content/client-server-baglantisi-nasil-yapilir</value>
+	</data>
 </root>

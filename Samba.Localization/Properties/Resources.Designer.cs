@@ -1120,6 +1120,15 @@ namespace Samba.Localization.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to http://www.sambapos.com/en/content/client-server-baglantisi-nasil-yapilir.
+        /// </summary>
+        public static string ClientServerConnectionHelpUrlString {
+            get {
+                return ResourceManager.GetString("ClientServerConnectionHelpUrlString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clone {0}.
         /// </summary>
         public static string Clone_f {

@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
 using System.ComponentModel.Composition;
@@ -45,7 +46,8 @@ namespace Samba.Login
 
         private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
         {
-            Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
+            Uri u = new Uri(Localization.Properties.Resources.ClientServerConnectionHelpUrlString);
+            Process.Start(new ProcessStartInfo(u.AbsoluteUri));
             e.Handled = true;
         }
         
